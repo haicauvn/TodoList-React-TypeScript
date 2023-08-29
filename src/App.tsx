@@ -50,6 +50,7 @@ const App: FC = () => {
             type="date"
             name="deadline"
             onChange={handleChange}
+            // input={deadline}
           />
         </div>
         <button onClick={addTask}>Add</button>
