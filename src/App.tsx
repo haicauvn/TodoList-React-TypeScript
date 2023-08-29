@@ -49,7 +49,6 @@ const App: FC = () => {
           <input
             type="date"
             name="deadline"
-            // value={deadline}
             onChange={handleChange}
           />
         </div>
