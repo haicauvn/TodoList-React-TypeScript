@@ -29,7 +29,7 @@ const App: FC = () => {
 
   const completeTask = (taskNameToDelete: string): void => {
     const newTasks = todoList.filter((task) => {
-      return task.taskName != taskNameToDelete;
+      return task.taskName !== taskNameToDelete;
     });
     setTodoList(newTasks);
     localStorage.setItem("items", JSON.stringify(newTasks));
